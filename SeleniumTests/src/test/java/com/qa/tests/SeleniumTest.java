@@ -37,7 +37,7 @@ public class SeleniumTest {
 
 	@Before
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "..\\SeleniumTests\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../SeleniumTests/src/test/resources/chromedriver.exe");
 		
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--headless");
